@@ -1,0 +1,7 @@
+# El CSV original trae nombres y fechas de nacimiento: no se sube.
+data/compas-scores-two-years.csv
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
