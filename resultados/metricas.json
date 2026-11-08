@@ -1,0 +1,88 @@
+{
+  "dataset": {
+    "filas": 6172,
+    "train": 4937,
+    "test": 1235,
+    "tasa_reincidencia": 0.4551198963058976,
+    "por_raza": {
+      "African-American": 3175,
+      "Caucasian": 2103,
+      "Hispanic": 509,
+      "Other": 343,
+      "Asian": 31,
+      "Native American": 11
+    },
+    "por_sexo": {
+      "Male": 4997,
+      "Female": 1175
+    }
+  },
+  "modelo_elegido": "Regresión Logística",
+  "test": {
+    "Referencia (clase mayoritaria)": {
+      "accuracy": 0.5449392712550607,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "auc": 0.5,
+      "VP": 0,
+      "FP": 0,
+      "VN": 673,
+      "FN": 562
+    },
+    "Regresión Logística": {
+      "accuracy": 0.6850202429149798,
+      "precision": 0.7189873417721518,
+      "recall": 0.505338078291815,
+      "f1": 0.593521421107628,
+      "auc": 0.7314092632447267,
+      "VP": 284,
+      "FP": 111,
+      "VN": 562,
+      "FN": 278
+    },
+    "Árbol de Decisión": {
+      "accuracy": 0.6874493927125506,
+      "precision": 0.6841004184100419,
+      "recall": 0.5818505338078291,
+      "f1": 0.6288461538461538,
+      "auc": 0.7283991581752709,
+      "VP": 327,
+      "FP": 151,
+      "VN": 522,
+      "FN": 235
+    },
+    "KNN (k=15)": {
+      "accuracy": 0.6753036437246963,
+      "precision": 0.6619718309859155,
+      "recall": 0.5854092526690391,
+      "f1": 0.6213408876298395,
+      "auc": 0.7068855657728448,
+      "VP": 329,
+      "FP": 168,
+      "VN": 505,
+      "FN": 233
+    },
+    "COMPAS (decil ≥ 5)": {
+      "accuracy": 0.6631578947368421,
+      "precision": 0.6367041198501873,
+      "recall": 0.604982206405694,
+      "f1": 0.6204379562043796,
+      "auc": 0.7164750704605183,
+      "VP": 340,
+      "FP": 194,
+      "VN": 479,
+      "FN": 222
+    }
+  },
+  "brecha_fpr_afro_vs_caucasico": 0.12406015037593984,
+  "criterios": {
+    "f1_minimo": 0.55,
+    "auc_minimo": 0.7,
+    "brecha_fpr_maxima": 0.1,
+    "cumple_f1": true,
+    "cumple_auc": true,
+    "supera_referencia": true,
+    "cumple_equidad": false
+  }
+}
