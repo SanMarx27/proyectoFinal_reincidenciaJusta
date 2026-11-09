@@ -39,7 +39,7 @@ PORTADA = {
     "Programa": ["Ingeniería de Software"],
     "Autores": ["Ximena Sánchez Martínez"],
     "Título": [f"{TITULO}. {SUBTITULO}"],
-    "Docente": ["[Nombre del docente]"],
+    "Docente": ["Rodrigo Aranda Fernández"],
     "Fecha": ["Noviembre 8 de 2026"],
 }
 FUENTE = "Times New Roman"
