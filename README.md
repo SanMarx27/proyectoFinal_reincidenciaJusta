@@ -6,7 +6,7 @@
 - **Asignatura:** Teoría de la Computación II, Universidad de La Salle
 - **Actividad:** Actividad 6. Mini-proyecto
 - **Rama de trabajo:** `dev_xsanchez90`, consolidada en `develop`
-- **Informe completo (PDF):** [`docs/informe_mini_proyecto.pdf`](docs/informe_mini_proyecto.pdf)
+- **Informe completo** (formato institucional de La Salle): [`docs/informe_mini_proyecto.pdf`](docs/informe_mini_proyecto.pdf) · [`.docx`](docs/informe_mini_proyecto.docx)
 
 ---
 
@@ -68,7 +68,7 @@ python -m src.entrenar_evaluar          # descarga, entrena, evalúa y guarda re
 python -m pytest -q                     # 9 pruebas de datos y aceptación
 python -m src.predecir --edad 23 --antecedentes 4 --grado F
 python docs/generar_c4.py               # diagrama C4
-python docs/generar_informe.py          # informe PDF
+python docs/generar_informe.py          # informe Word (plantilla La Salle) y PDF
 ```
 
 ## 4. Alcance: qué hace y qué no hace el sistema
